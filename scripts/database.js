@@ -110,7 +110,7 @@ async function infobox(id) {
         .html(`
             <strong>Price:</strong> ${element.price}<br/>
             <strong>Type:</strong> ${element.specs.type}<br/>
-            <strong>Pedalling:</strong> ${element.specs.pedalling}<br/>
+            <strong>Pedaling:</strong> ${element.specs.pedaling}<br/>
             <strong>Keys:</strong> ${element.specs.keys}<br/><br/>
             ${element.specs.info}<br/>
         `)

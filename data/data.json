@@ -6,7 +6,7 @@
         "price": "€172,119",
         "specs": {
             "type": "Acoustic",
-            "pedalling": "Soft, Sostenuto, Sustain",
+            "pedaling": "Soft, Sostenuto, Sustain",
             "keys": "88",
             "info": "A concert grand piano of very high quality"
         }
@@ -18,7 +18,7 @@
         "price": "€17,000",
         "specs": {
             "type": "Acoustic",
-            "pedalling": "Soft, Sostenuto, Sustain",
+            "pedaling": "Soft, Sostenuto, Sustain",
             "keys": "88",
             "info": "A pricy and high-end upright piano"
         }
@@ -30,7 +30,7 @@
         "price": "€7,000",
         "specs": {
             "type": "Digital",
-            "pedalling": "Soft, Sostenuto, Sustain (with half-pedal function)",
+            "pedaling": "Soft, Sostenuto, Sustain (with half-pedal function)",
             "keys": "88",
             "info": "A high-end digital upright piano"
         }
@@ -42,7 +42,7 @@
         "price": "€650",
         "specs": {
             "type": "Digital",
-            "pedalling": "Basic sustain pedal (optional pedalling unit possible)",
+            "pedaling": "Basic sustain pedal (optional pedaling unit possible)",
             "keys": "88",
             "info": "An affordable and compact digital piano with MIDI connection and multiple differnet piano and instrument voices and styles"
         }
@@ -54,7 +54,7 @@
         "price": "€2,250",
         "specs": {
             "type": "Digital",
-            "pedalling": "Basic sustain pedal (optional pedalling unit possible)",
+            "pedaling": "Basic sustain pedal (optional pedaling unit possible)",
             "keys": "88",
             "info": "The high-end model of the Yamaha digital piano 'P' series, with 100 different instrument voice settings and MIDI and tablet connectivity"
         }
@@ -66,7 +66,7 @@
         "price": "€2,000",
         "specs": {
             "type": "Digital",
-            "pedalling": "Soft, Sostenuto, Sustain",
+            "pedaling": "Soft, Sostenuto, Sustain",
             "keys": "88",
             "info": "A high-end digital piano which comes with pedal unit included, full wooden piano keys and MIDI connectivity"
         }
@@ -78,7 +78,7 @@
         "price": "€460",
         "specs": {
             "type": "Digital",
-            "pedalling": "Basic sustain pedal",
+            "pedaling": "Basic sustain pedal",
             "keys": "88",
             "info": "An affordable and very simplistic digital piano good for beginners or those who don't need much extra piano functionality aside from the baiscs"
         }
@@ -90,7 +90,7 @@
         "price": "€350",
         "specs": {
             "type": "Digital",
-            "pedalling": "Optional sustain pedal",
+            "pedaling": "Optional sustain pedal",
             "keys": "61",
             "info": "A keyboard suitable mainly for music producers and non-classical pieces; it should not be used as a piano practice instrument"
         }
@@ -102,7 +102,7 @@
         "price": "€750",
         "specs": {
             "type": "Digital",
-            "pedalling": "Optional sustain pedal or pedal unit",
+            "pedaling": "Optional sustain pedal or pedal unit",
             "keys": "88",
             "info": "An affordable and compact digital piano with a full grand piano sound and multiple voice options"
         }
