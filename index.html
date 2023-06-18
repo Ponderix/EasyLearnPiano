@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyLearnPiano</title>
+
+    <!--libraries-->
+    <script src="libs/d3.min.js"></script>
+    <script type="module" src="libs/myModules/functions.js"></script> 
+    <script type="module" src="libs/myModules/staff.js"></script> 
+
+    <!--css-->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <h1 class="nav__title">EasyLearnPiano</h1>
+            <div class="nav__list">
+                <a href="index.html"><div class="nav--btn nav--selected">Game</div></a>
+                <a href="database.html"><div class="nav--btn">Piano shopping</div></a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="game">
+        <div class="game__misc">
+            <div class="game__reset --game__btn">RESET</div>
+            <div class="game__clef-btns">
+                <div class="clef-btns__treble --game__btn --game__btn-selected">TREBLE CLEF</div>
+                <div class="clef-btns__bass --game__btn">BASS CLEF</div>
+            </div>
+            <div class="game__timer"></div>
+        </div>
+        
+
+        <div class="game__staff"></div>
+        <input class="game__input" type="text" placeholder="Note e.g 'C'">
+        <div class="game__results"></div>
+    </div>
+    
+    <!--fix this!!-->
+    <script type="module" src="scripts/index.js"></script> 
+</body>
+</html>
+
+
+<!-- CSS styling
+      /* Reset default browser styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__title {
+  margin: 0;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav--btn {
+  color: #fff;
+  padding: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.nav--selected {
+  font-weight: bold;
+}
+
+/* Staff styles */
+.staff {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+-->

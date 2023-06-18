@@ -1,0 +1,35 @@
+.nav {}
+    .nav__list a {color: black;}
+.game {
+    margin: auto;
+    width: 98%;
+}
+    .--game__btn {
+        cursor: pointer;
+        border: 1px solid black;
+        background-color: white;
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .--game__btn-selected {
+        background-color: black; 
+        color: white;
+    }
+    .game__misc {
+        display: flex;
+        flex-direction: row;
+        gap: 0 10px;
+    }
+        .game__clef-btns {
+            display: flex;
+            background-color: grey;
+            color: black;
+            flex-direction: row;
+        }
+        .game__clef-btns div:hover {transition: 0.15s; background-color: black; color: white;}
+
+    .game__staff {}
+        .staff__notes {
+            stroke: black;
+        }

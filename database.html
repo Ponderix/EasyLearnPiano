@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyLearnPiano</title>
+
+    <!--libraries-->
+    <script src="libs/d3.min.js"></script>
+    <script type="module" src="libs/myModules/functions.js"></script> 
+    <script type="module" src="libs/myModules/filter.js"></script> 
+
+    <!--css-->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/database.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <h1 class="nav__title">EasyLearnPiano</h1>
+            <div class="nav__list">
+                <a href="index.html"><div class="nav--btn">Game</div></a>
+                <a href="database.html"><div class="nav--btn nav--selected">Piano shopping</div></a>
+            </div>
+        </div>
+
+        <div class="filters">
+            <div class="filters__slider">
+                <div class="slider__min">€0</div>
+                <input class="slider__slider" type="range" min="1" max="100" value="100">
+                <input class="slider__max" type="text" value="200000" placeholder="€€€">
+                <div class="slider__price"></div>
+            </div>
+            <div class="filters__type">
+                <div class="type__btn --filters-active">Acoustic</div>
+                <div class="type__btn --filters-active">Digital</div>
+            </div>
+            <div class="filters__search">
+                <img src="" alt="">
+                <input class="search__input" type="text" placeholder="Search...">
+            </div>
+            <div class="filters__brand">
+                <div class="brand__btn --filters-active">YAMAHA</div>
+                <div class="brand__btn --filters-active">CASIO</div>
+                <div class="brand__btn --filters-active">ROLAND</div>
+                <div class="brand__btn --filters-active">KAWAI</div>
+                <div class="brand__btn --filters-active">Other.</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="results">
+        </div>
+    
+        <div class="infobox">
+    
+        </div>
+    </div>
+    
+    <!--fix this!!-->
+    <script type="module" src="scripts/database.js"></script> 
+</body>
+</html>
