@@ -77,6 +77,7 @@ header {
     .filters__brand {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         gap: 10px;
         cursor: pointer;
     }
