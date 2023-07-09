@@ -8,6 +8,7 @@
             "type": "Acoustic",
             "pedaling": "Soft, Sostenuto, Sustain",
             "keys": "88",
+            "link": "https://www.vankerkwijkpianos.nl/product/yamaha-cfx/",
             "info": "A concert grand piano of very high quality"
         }
     },
@@ -20,6 +21,7 @@
             "type": "Acoustic",
             "pedaling": "Soft, Sostenuto, Sustain",
             "keys": "88",
+            "link": "https://www.maene.nl/nl_NL/yamaha-se132-pe-zwart-hoogglans",
             "info": "A pricy and high-end upright piano"
         }
     },
@@ -27,11 +29,12 @@
         "name": "CLP-785",
         "img": "assets/pianos/CLP-785.png",
         "brand": "YAMAHA",
-        "price": "€7,000",
+        "price": "€4,600",
         "specs": {
             "type": "Digital",
             "pedaling": "Soft, Sostenuto, Sustain (with half-pedal function)",
             "keys": "88",
+            "link": "https://www.maene.nl/nl_NL/yamaha-clavinova-clp-785-b-zwart-gesatineerd",
             "info": "A high-end digital upright piano"
         }
     },
@@ -44,7 +47,8 @@
             "type": "Digital",
             "pedaling": "Basic sustain pedal (optional pedaling unit possible)",
             "keys": "88",
-            "info": "An affordable and compact digital piano with MIDI connection and multiple differnet piano and instrument voices and styles"
+            "link": "https://www.oostendorp-muziek.nl/yamaha-p-125a-b-digitale-piano-kopen",
+            "info": "A portable and affordable digital piano with MIDI connection and multiple differnet piano and instrument voices and styles"
         }
     },
     "5": {
@@ -56,7 +60,8 @@
             "type": "Digital",
             "pedaling": "Basic sustain pedal (optional pedaling unit possible)",
             "keys": "88",
-            "info": "The high-end model of the Yamaha digital piano 'P' series, with 100 different instrument voice settings and MIDI and tablet connectivity"
+            "link": "https://www.oostendorp-muziek.nl/yamaha-p-s500-wh-digitale-stagepiano-kopen",
+            "info": "The high-end model of the Yamaha P series, with 100 different instrument voice settings and MIDI and tablet connectivity"
         }
     },
     "6": {
@@ -68,7 +73,8 @@
             "type": "Digital",
             "pedaling": "Soft, Sostenuto, Sustain",
             "keys": "88",
-            "info": "A high-end digital piano which comes with pedal unit included, full wooden piano keys and MIDI connectivity"
+            "link": "https://www.oostendorp-muziek.nl/casio-px-s7000-hm-stagepiano-kopen",
+            "info": "A high-end portable digital piano which comes with pedal unit included, full wooden piano keys and MIDI connectivity"
         }
     },
     "7": {
@@ -80,7 +86,8 @@
             "type": "Digital",
             "pedaling": "Basic sustain pedal",
             "keys": "88",
-            "info": "An affordable and very simplistic digital piano good for beginners or those who don't need much extra piano functionality aside from the baiscs"
+            "link": "https://www.oostendorp-muziek.nl/casio-cdp-s110-bk-stagepiano-kopen",
+            "info": "An affordable and very simplistic portable digital piano which is suited for beginners or those who don't need much extra piano functionality aside from the essentials"
         }
     },
     "8": {
@@ -92,6 +99,7 @@
             "type": "Digital",
             "pedaling": "Optional sustain pedal",
             "keys": "61",
+            "link": "https://tweakers.net/pricewatch/1395490/casio-ct-x3000.html",
             "info": "A keyboard suitable mainly for music producers and non-classical pieces; it should not be used as a piano practice instrument"
         }
     },
@@ -104,7 +112,151 @@
             "type": "Digital",
             "pedaling": "Optional sustain pedal or pedal unit",
             "keys": "88",
-            "info": "An affordable and compact digital piano with a full grand piano sound and multiple voice options"
+            "link": "https://www.bax-shop.nl/digitale-piano-s/roland-fp-30x-digitale-piano-zwart",
+            "info": "A portable and affordable digital piano with a full grand piano sound and multiple voice options"
+        }
+    },
+    "10": {
+        "name": "FP-90X",
+        "img": "assets/pianos/FP-90X.png",
+        "brand": "ROLAND",
+        "price": "€1,800",
+        "specs": {
+            "type": "Digital",
+            "pedaling": "Sustain (optional pedaling unit possible)",
+            "keys": "88",
+            "link": "https://www.oostendorp-muziek.nl/roland-fp-90x-bk-stagepiano-kopen",
+            "info": "The portable premium version of the FP-30X and the flagship model of the FP series, it comes with 1000 different voicings and multiple connectivity options such as MIDI and bluetooth"
+        }
+    },
+    "11": {
+        "name": "HP704",
+        "img": "assets/pianos/HP704.png",
+        "brand": "ROLAND",
+        "price": "€2,100",
+        "specs": {
+            "type": "Digital",
+            "pedaling": "Soft, Sostenuto, Sustain",
+            "keys": "88",
+            "link": "https://www.oostendorp-muziek.nl/roland-hp704-ch-digitale-piano-kopen",
+            "info": "A premium digital upright piano with a sophistcated sound system and a large instrument cabinet"
+        }
+    },
+    "12": {
+        "name": "GP-9",
+        "img": "assets/pianos/GP-9.png",
+        "brand": "ROLAND",
+        "price": "€11,500",
+        "specs": {
+            "type": "Digital",
+            "pedaling": "Soft, Sostenuto, Sustain",
+            "keys": "88",
+            "link": "https://www.oostendorp-muziek.nl/roland-gp-9-pe-digitale-vleugel-kopen",
+            "info": "A unique digital stage grand piano with a sound system which combines the design of a acoustic grand piano as well as digital sound processing"
+        }
+    },
+    "13": {
+        "name": "GX-7",
+        "img": "assets/pianos/GX-7.png",
+        "brand": "KAWAI",
+        "price": "€57,000",
+        "specs": {
+            "type": "Acoustic",
+            "pedaling": "Soft, Sostenuto, Sustain",
+            "keys": "88",
+            "link": "https://zuidnederlandpianos.nl/merken/kawai/model_gx-7",
+            "info": "The more affordable standard KAWAI grand piano design both for home or the stage"
+        }
+    },
+    "14": {
+        "name": "SK-EX",
+        "img": "assets/pianos/SK-EX.png",
+        "brand": "KAWAI",
+        "price": "€150,000",
+        "specs": {
+            "type": "Acoustic",
+            "pedaling": "Soft, Sostenuto, Sustain",
+            "keys": "88",
+            "link": "https://www.klaviano.com/nl/grand-pianos-for-sale/shigeru-kawai/sk-ex/new-shigeru-kawai-sk-ex-431975.html",
+            "info": "KAWAI's premium concert grand piano, 2 metres in length, designed for orchestral and concert perfomances"
+        }
+    },
+    "15": {
+        "name": "K-500 Aures",
+        "img": "assets/pianos/K-500_Aures.png",
+        "brand": "KAWAI",
+        "price": "€12,900",
+        "specs": {
+            "type": "Acoustic",
+            "pedaling": "Soft, Sostenuto, Sustain",
+            "keys": "88",
+            "link": "https://www.oostendorp-muziek.nl/kawai-k-500-aures-e-p-messing-silent-piano-kopen",
+            "info": "A hyprid large upright piano designed for at-home use, it has both the functionality of an acoustic upright and the conectivity of a digital piano"
+        }
+    },
+    "16": {
+        "name": "K-15-E",
+        "img": "assets/pianos/K-15-E.png",
+        "brand": "KAWAI",
+        "price": "€3,800",
+        "specs": {
+            "type": "Acoustic",
+            "pedaling": "Soft, Sostenuto, Sustain",
+            "keys": "88",
+            "link": "https://www.johdeheer.nl/artikel/kawai-k-15e-piano-zwart-hoogglans.html",
+            "info": "A hyprid compact upright piano designed for at-home use, it is a very affordable acoustic piano"
+        }
+    },
+    "17": {
+        "name": "CN-301",
+        "img": "assets/pianos/CN-301.png",
+        "brand": "KAWAI",
+        "price": "€1,800",
+        "specs": {
+            "type": "Digital",
+            "pedaling": "Soft, Sostenuto, Sustain",
+            "keys": "88",
+            "link": "https://zuidnederlandpianos.nl/collectie/digitale-pianos/kawai_cn-301",
+            "info": "An affordable digital upright piano suited for beginner and intermediate players for at-home use"
+        }
+    },
+    "18": {
+        "name": "ES-120",
+        "img": "assets/pianos/ES-120.png",
+        "brand": "KAWAI",
+        "price": "€800",
+        "specs": {
+            "type": "Digital",
+            "pedaling": "Sustain (optional pedaling unit possible)",
+            "keys": "88",
+            "link": "https://www.oostendorp-muziek.nl/kawai-es120-b-stagepiano-kopen",
+            "info": "The standard KAWAI portable digital piano which is very affordable and full MIDI/AUX connectivity options"
+        }
+    },
+    "19": {
+        "name": "D-274",
+        "img": "assets/pianos/D-274.png",
+        "brand": "Steinway",
+        "price": "€213,000",
+        "specs": {
+            "type": "Digital",
+            "pedaling": "Soft, Sostenuto, Sustain",
+            "keys": "88",
+            "link": "https://www.maene.nl/nl_NL/brands/steinway-sons/steinway-sons-d-274-pe",
+            "info": "A very high end stage grand piano designed by the premium Steinway company"
+        }
+    },
+    "20": {
+        "name": "S-155",
+        "img": "assets/pianos/S-155.png",
+        "brand": "Steinway",
+        "price": "€101,000",
+        "specs": {
+            "type": "Digital",
+            "pedaling": "Soft, Sostenuto, Sustain",
+            "keys": "88",
+            "link": "https://www.maene.nl/nl_NL/brands/steinway-sons-s-155-pe",
+            "info": "The premium steinway grand designed to be smaller for home use"
         }
     }
 }

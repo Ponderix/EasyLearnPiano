@@ -109,7 +109,7 @@ export class Filter {
             bound = Infinity;
         }
         let max = Math.floor((value / 100) * bound);
-        output.html('€' + max);
+        output.html('€' + max.toLocaleString());
 
         for (let i = 0; i < data.length; i++) {
             let element = data[i][1];

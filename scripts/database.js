@@ -42,7 +42,8 @@ async function loadItems(container, obj) {
     filter.filterSlider(slider, max, price);
 
     for (let i = 0; i < data.length; i++) {   
-        const element =  container.append('div')
+        const element = data[i][1];
+        const item =  container.append('div')
             .attr('id', data[i][1].name)
             .attr('class', () => {
                 if (i === 0) {
@@ -52,21 +53,21 @@ async function loadItems(container, obj) {
                 }
             });
 
-        element.append('div')
+        item.append('div')
             .attr('class', 'results__element-img')
             .append('img')
                 .attr('src', () => {
-                    if (data[i][1].img.includes('CFX') === true || data[i][1].img === null) {
-                        return data[i][1].img;
+                    if (element.img !== null) {
+                        return element.img;
                     }
                 });
         
-        element.append('div')
+        item.append('div')
             .attr('class', 'results__element-info')
             .html(() => {
-                let name = data[i][1].name;
-                let brand = data[i][1].brand;
-                let price = data[i][1].price;
+                let name = element.name;
+                let brand = element.brand;
+                let price = element.price;
 
                 return `<span>${name}</span><br/>
                 ${brand}<br/>
@@ -77,7 +78,8 @@ async function loadItems(container, obj) {
     }
 
     obj.id = data[0][1].name;
-    d3.selectAll('.results__element').on('click', evt => itemSelect(evt, obj)); // bind event to the newly generated items
+    d3.selectAll('.results__element')
+        .on('click', evt => selectItem(evt, obj)); // bind event to the newly generated items
 
     return data[0][1].name; // return ID so infobox can be generates
 }
@@ -100,7 +102,7 @@ async function infobox(id) {
         .attr('class', 'infobox__img')
         .append('img')
             .attr('src', () => {
-                if (element.img.includes('CFX') === true || element.img === null) {
+                if (element.img !== null) {
                     return element.img;
                 }
             });
@@ -112,16 +114,17 @@ async function infobox(id) {
             <strong>Type:</strong> ${element.specs.type}<br/>
             <strong>Pedaling:</strong> ${element.specs.pedaling}<br/>
             <strong>Keys:</strong> ${element.specs.keys}<br/><br/>
+            <strong>Purchase:</strong> <a href="${element.specs.link}">${element.specs.link}</a> <br/><br/>
             ${element.specs.info}<br/>
         `)
 }
 
-function itemSelect(evt, obj) {
+function selectItem(evt, obj) {
     const target = findParent(d3.select(evt.target), 'results__element');
     const target_id = target.attr('id');
-    const selected_element = d3.select(`#${obj.id}`);
+    const current = d3.select(`#${obj.id}`);
 
-    selected_element.classed('--results__element-selected', false);
+    current.classed('--results__element-selected', false);
     target.classed('--results__element-selected', true);
     infobox(target_id);
 
